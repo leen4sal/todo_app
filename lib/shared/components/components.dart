@@ -7,25 +7,6 @@ import 'package:todo_app/layout/home_layout.dart';
 import 'package:todo_app/shared/cubit/cubit.dart';
 import 'constants.dart';
 
-Widget defaultButton(
-    {@required double height,
-      double width = double.infinity,
-      bool isUpper = true,
-      @required String text,
-      @required Function onPress,
-      Color color = Colors.blue}) =>
-    Container(
-        height: height,
-        width: width,
-        child: MaterialButton(
-          onPressed: onPress,
-          child: Text(
-            isUpper ? text.toUpperCase() : text,
-            style: TextStyle(color: Colors.white),
-          ),
-          color: color,
-        ));
-
 Widget defaultFormField(
     {@required TextEditingController controller,
       bool isObs = false,
