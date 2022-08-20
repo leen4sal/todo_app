@@ -47,16 +47,16 @@ class HomeLayout extends StatelessWidget {
                 items: [
                   BottomNavigationBarItem(
                       icon: navBottomIcon(
-                        icon: Icons.menu,
-                      ),
-                      activeIcon: activeIcon(icon: Icons.menu),
-                      label: 'Tasks'),
-                  BottomNavigationBarItem(
-                      icon: navBottomIcon(
                         icon: Icons.done_all,
                       ),
                       activeIcon: activeIcon(icon: Icons.done_all),
                       label: 'Done'),
+                  BottomNavigationBarItem(
+                      icon: navBottomIcon(
+                        icon: Icons.menu,
+                      ),
+                      activeIcon: activeIcon(icon: Icons.menu),
+                      label: 'Tasks'),
                   BottomNavigationBarItem(
                       icon: navBottomIcon(
                         icon: Icons.archive,
